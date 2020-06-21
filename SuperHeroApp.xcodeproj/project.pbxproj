@@ -13,6 +13,7 @@
 		55DA86D9249E35F100CAF818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DA86D7249E35F100CAF818 /* Main.storyboard */; };
 		55DA86DB249E361500CAF818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DA86DA249E361500CAF818 /* Assets.xcassets */; };
 		55DA86DE249E361500CAF818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DA86DC249E361500CAF818 /* LaunchScreen.storyboard */; };
+		55DA86E8249FB2CB00CAF818 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA86E7249FB2CB00CAF818 /* Persons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		55DA86DA249E361500CAF818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DA86DD249E361500CAF818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55DA86DF249E361500CAF818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DA86E7249FB2CB00CAF818 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				55DA86D1249E35F100CAF818 /* AppDelegate.swift */,
 				55DA86D3249E35F100CAF818 /* SceneDelegate.swift */,
+				55DA86E7249FB2CB00CAF818 /* Persons.swift */,
 				55DA86D5249E35F100CAF818 /* ViewController.swift */,
 				55DA86D7249E35F100CAF818 /* Main.storyboard */,
 				55DA86DA249E361500CAF818 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DA86E8249FB2CB00CAF818 /* Persons.swift in Sources */,
 				55DA86D6249E35F100CAF818 /* ViewController.swift in Sources */,
 				55DA86D2249E35F100CAF818 /* AppDelegate.swift in Sources */,
 				55DA86D4249E35F100CAF818 /* SceneDelegate.swift in Sources */,
